@@ -5,6 +5,7 @@ Revision: 5/17/20
 
 
 Introduction: 
+
 Our program is an interface for a program that will teach kids to code, in a fun and educational way that they can see and touch, and practice their knowledge on an interactive robot - the ShelBot. It includes the robot and a simulator (PC Application) used to communicate with the robot. Both serve the function of teaching the user how to code. The program teaches programming based on a specified difficulty level to keep kids busy. They write Java code using block-based programming, provided by the program. After instruction by the program and putting together their own program, users will be able to connect to the robot, deploy code, and watch the robot execute the program. Users can program ShelBot to move, talk and more. 
 
 
