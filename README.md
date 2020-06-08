@@ -1,9 +1,10 @@
 # ShelBot
 Authors: Pallavi Das, Laksh Bhambhani, Ruchika Dixit
+
 Revision: 5/17/20
 
 
-Introduction:[a] 
+Introduction: 
 Our program is an interface for a program that will teach kids to code, in a fun and educational way that they can see and touch, and practice their knowledge on an interactive robot - the ShelBot. It includes the robot and a simulator (PC Application) used to communicate with the robot. Both serve the function of teaching the user how to code. The program teaches programming based on a specified difficulty level to keep kids busy. They write Java code using block-based programming, provided by the program. After instruction by the program and putting together their own program, users will be able to connect to the robot, deploy code, and watch the robot execute the program. Users can program ShelBot to move, talk and more. 
 
 
@@ -11,6 +12,7 @@ ShelBot is unique, as while there are many educational programs to teach kids ab
 
 
 Kids with little or even no coding experience would follow through provided tutorials and write code using text or piecing together blocks. If the program connects to a nearby ShelBot, this code would then be deployed to the ShelBot and be executed. If not, the code would run in the simulator, which is similar to scratch IDE. The user will receive a ShelBot sprite and the code would run on that. Additionally, ShelBot can also act as your child’s companion. ShelBot can talk and interact with the user and possibly even play some games. To best simulate the enriching learning experience of a classroom, ShelBot can also move and act like Mr. Shelby and Mr. Taylor depending on its mode.
+
 
 
 Instructions:
@@ -24,8 +26,9 @@ In the Control[b] Tab the user has options to choose between 4 different modes t
 The Tutorials tab has buttons that link to tutorial videos when pressed.
 
 
+
 Features List:
-[c]
+
 Must-have Features:
 
 
@@ -34,7 +37,6 @@ Must-have Features:
 * Client Server based interaction: Users would be able to communicate with the robot using a software running on the laptop or on his or her phone. This includes a server running on the robot side that constantly communicates with the user interface.
 * Teleop Control: Teleop control will allow for the user to move the robot without having to code the actions. A controller, which would have pre-coded buttons for different actions, would control the certain movements of the robot, such as moving its arms. The user can use this to get to know the different movement aspects of the robot.
 * Autonomous[d][e] Mode. This mode will allow for certain things randomly such as sharing general facts from the web, walking around, exploring the environment, etc. 
-
 
 
 
