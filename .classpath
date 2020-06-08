@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="ShelBot/src/main/java"/>
+	<classpathentry kind="src" path="ShelBotSimulator/src/main/java"/>
+	<classpathentry kind="lib" path="ShelBot/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="ShelBot/libs/javacpp-1.0.jar"/>
+	<classpathentry kind="lib" path="ShelBot/libs/javacv-1.0.jar"/>
+	<classpathentry kind="lib" path="ShelBot/libs/javacv-1.5.3.jar"/>
+	<classpathentry kind="lib" path="ShelBot/libs/opencv-3.0.0-1.0-linux-arm.jar"/>
+	<classpathentry kind="lib" path="ShelBot/libs/opencv-3.0.0-1.0.jar"/>
+	<classpathentry kind="lib" path="ShelBot/libs/pi4j-core.jar"/>
+	<classpathentry kind="lib" path="ShelBot/libs/pi4jextension.jar"/>
+	<classpathentry kind="lib" path="ShelBotSimulator/build/libs/ShelBotSimulator.jar"/>
+	<classpathentry kind="lib" path="ShelBotSimulator/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="ShelBotSimulator/lib/core.jar"/>
+	<classpathentry kind="lib" path="ShelBotSimulator/lib/JoyconLib-1.0.jar"/>
+	<classpathentry kind="lib" path="ShelBotSimulator/lib/ntcore-java.jar"/>
+	<classpathentry kind="lib" path="ShelBotSimulator/lib/ntcore-jni.jar"/>
+	<classpathentry kind="lib" path="ShelBotSimulator/lib/tritonus-share-0.3.7-2.jar"/>
+	<classpathentry kind="lib" path="ShelBotSimulator/lib/wpiutil.jar"/>
+	<classpathentry kind="lib" path="ShelBotSimulator/ShelBotSimulator.jar"/>
+	<classpathentry kind="output" path="ShelBot/bin/main"/>
+</classpath>
