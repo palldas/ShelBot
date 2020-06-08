@@ -4,6 +4,7 @@ Authors: Pallavi Das, Laksh Bhambhani, Ruchika Dixit
 Revision: 5/17/20
 
 
+
 Introduction: 
 
 Our program is an interface for a program that will teach kids to code, in a fun and educational way that they can see and touch, and practice their knowledge on an interactive robot - the ShelBot. It includes the robot and a simulator (PC Application) used to communicate with the robot. Both serve the function of teaching the user how to code. The program teaches programming based on a specified difficulty level to keep kids busy. They write Java code using block-based programming, provided by the program. After instruction by the program and putting together their own program, users will be able to connect to the robot, deploy code, and watch the robot execute the program. Users can program ShelBot to move, talk and more. 
@@ -17,18 +18,27 @@ Kids with little or even no coding experience would follow through provided tuto
 
 
 Instructions:
+
 When the program first starts; the user will see a loading page. Once it is loaded, the user will be taken to a programming window. In the window, there will be a link to a tutorial, as well as a button that takes the user to more tutorials when clicked, and a close button that closes the tutorial when clicked.
+
 At the top of the window, there are two buttons: file and help. Clicking File will bring up a menu with options Open, Save, About (which opens a popup with information about the program, and Exit. Under help, the button “report a bug” links to a google form.
+
 Under the file and help bar, there are 4 tabs: Code, Sounds, Control, and Tutorial. Clicking each takes the user to a different window.
+
 The program automatically opens to Code, the program window. On the left side of the program, there is a menu containing the options: Motion, Control, Events, Operators, and Sound. Clicking any of these will open to its left a list of commands/blocks under that category. Next to that is a blank screen, which will contain the code, and to the very right, a humanoid. 
+
 The user can drag and drop blocks from the menu onto the blank screen to add the commands of the blocks to the code. To remove a block, drag it to the trash icon under the blocks or to the section you got it from. To clear the code screen of all blocks, click the trash icon. The green flag at the top will run the user’s constructed program, while the red hexagon will stop it and reset the humanoid to its starting state.
+
 In the tab Sound, the center contains several labeled buttons. Each plays a unique sound when pressed. To the right, there are two buttons. The first, Upload, when clicked, will open a finder window that allows the user to upload audio files, which will then show up as a button in the center. The second button, TextToSpeech, opens a pop up with a textbox. The text entered in the box will be converted into audio, again added as a button in the center.
-In the Control[b] Tab the user has options to choose between 4 different modes the robot can be controlled in. These are teleop mode in which the user can connect xbox or nintendo joycons to control the robot manually, autonomous mode where the robot will control itself and Shelby and Taylor mode where the robot will act like Mr. Shelby or Mr. Taylor
+
+In the Control Tab the user has options to choose between 4 different modes the robot can be controlled in. These are teleop mode in which the user can connect xbox or nintendo joycons to control the robot manually, autonomous mode where the robot will control itself and Shelby and Taylor mode where the robot will act like Mr. Shelby or Mr. Taylor.
+
 The Tutorials tab has buttons that link to tutorial videos when pressed.
 
 
 
 Features List:
+
 
 Must-have Features:
 
@@ -38,7 +48,6 @@ Must-have Features:
 * Client Server based interaction: Users would be able to communicate with the robot using a software running on the laptop or on his or her phone. This includes a server running on the robot side that constantly communicates with the user interface.
 * Teleop Control: Teleop control will allow for the user to move the robot without having to code the actions. A controller, which would have pre-coded buttons for different actions, would control the certain movements of the robot, such as moving its arms. The user can use this to get to know the different movement aspects of the robot.
 * Autonomous[d][e] Mode. This mode will allow for certain things randomly such as sharing general facts from the web, walking around, exploring the environment, etc. 
-
 
 
 Want-to-have Features:
@@ -59,8 +68,10 @@ Stretch Features:
 * Using a camera stream to navigate. Using the camera stream and touching a point to direct ShelBot to walk to that point. ShelBot will generate a path and visualize it’s gait to that point. Similar to controlling Boston Dynamics’ Spot.
 
 
-Class List:[f]
-[This section lists the Java classes that make up the program and very briefly describes what each represents. It’s totally fine to put this section in list format and not to use full sentences.]
+
+Class List:
+
+
 * Client Side/Simulator Code
    * Main.java - runs/executes the whole program
    * SimulatorWindow.java - graphics interface, where all the other windows are drawn
@@ -139,7 +150,10 @@ Class List:[f]
    * Robot.java - represents the robot, includes its subsystems
 
 
-Credits:[g]
+
+Credits:
+
+
 * Internal Credit
    * Ruchi
       * Worked on SimulatorWindow, ProgrammingWindow
@@ -158,6 +172,8 @@ Credits:[g]
          * Setup joycon and xbox libraries out of which the joycon library is developed by me. Also setup client server integration which checks if the robot is connected and if it is, initializes a database on the robot using which values are exchanged
       * Responsible for creating most Windows (AboutWindow, BlocksCategoryWindow, BlocksWindow), Utils (Button, Section, SimulatorMenu, TabbedPane) and BlocksDrawer
          * Responsible for creating graphics for many of the windows and the way blocks are drawn
+         
+         
 * External Credit
    * JoyconLib
       * Library developed by Laksh to integrate Nintendo Joycons into your project which will be used to control the robot
@@ -177,13 +193,3 @@ Credits:[g]
       * Network Tables Library. Helps us initialize a database on the client to exchange values between the client and the server
    * Tritonus
       * Supporting Library for Minim
-[a]TODO: Update to fit more accurate description of program and changes made
-[b]idkkkk what to do for this one
-[c](THE ONLY SECTION THAT CANNOT CHANGE LATER)
-[d]wait isn't our block based programming basically making it autonomous cuz they're coding the auton portion that the robot would do? or is it something else?
-[e]Block based coding is more of teleop control. Autonomous kinda refers to the robot just randomly diong stuff on it;s own
-[f]TODO: Fix briefing for all classes (and add new classes made)
-[g]TODO: Specify more and put into sentences describing who did what
-
-
-Credits: describe how each member contributed to the completion of the final program. This could be classes written, art assets created, leadership/organizational skills exercises, or other tasks. This also includes external sources/libraries used.
