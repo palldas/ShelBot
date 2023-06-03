@@ -1,4 +1,7 @@
 # ShelBot
+Authors: Pallavi Das, Laksh Bhambhani, Ruchika Dixit
+
+Revision: 5/17/20
 
 ## Introduction: ##
 
